@@ -28,7 +28,7 @@ class Game():
 
     def check_win(self):
         # Column and row Win Conditions
-        for i in range(0, 2):
+        for i in range(0, 3):
             if (self.Board[i][0] == self.Board[i][1] 
                 and self.Board[i][0] == self.Board[i][2]):
                 self.Win = self.Board[i][0]
